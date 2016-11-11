@@ -9,7 +9,7 @@ public class MessageTest {
 	@Test
 	public void testGetMessage() {
 
-		Assert.assertEquals(Message.getMessage(), "Something");
+		Assert.assertEquals(Message.getMessage(), "Watson");
 
 	}
 
