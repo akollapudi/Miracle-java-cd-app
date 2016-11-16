@@ -187,7 +187,7 @@
                 <mailssl>true</mailssl>
                 <mailAltConfig>true</mailAltConfig> 
                 <mailuser>chandra.yarramreddy@gmail.com</mailuser>
-                <mailpassword>chandra1</mailpassword>
+                <mailpassword>chandra2</mailpassword>
  
                 <from>chandra.yarramreddy@gmail.com</from>
                 <receivers>
