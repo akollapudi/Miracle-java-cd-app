@@ -122,15 +122,15 @@ public class HelloWorldTest implements SauceOnDemandSessionIdProvider {
 
 	@Test
 	public void CPTK_1000_spl100_New_flow() throws Exception {
-
+		 
 			driver.manage().window().maximize();
-			driver.get("http://mssdeleverypipeline.mybluemix.net/");
+			driver.get("http://test-seleniummss.mybluemix.net/");
 			String textfromid = driver.findElement(By.id("message")).getText();
-			if(textfromid.endsWith("Hello World Watson!"))
+			if(textfromid.endsWith("Hello World!"))
 			{
-				System.out.println("Integration Test is a Success!");
+				System.out.println("Success ");	
 			}else{
-				throw new Exception("Failure");
+				throw new Exception("fail");
 			}
 		}
 
